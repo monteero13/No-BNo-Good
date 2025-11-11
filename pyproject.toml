@@ -1,0 +1,10 @@
+[project]
+name = "no-bno-good"
+version = "0.1.0"
+description = "Un pipeline para limpiar, skolemizar y armonizar JSON-LD (DCAT) a un grafo RDF (IDS) limpio."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ruff>=0.14.4",
+    "rdflib",
+]
