@@ -1,0 +1,71 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix edaan: <https://edaanowl.org/ontology#> .
+@prefix ids: <https://w3id.org/idsa/core/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dcat:Catalog a rdfs:Class .
+
+ids:Resource a rdfs:Class .
+
+dct:creator a rdf:Property .
+
+dct:description a rdf:Property .
+
+dct:issued a rdf:Property .
+
+dct:language a rdf:Property .
+
+dct:license a rdf:Property .
+
+dct:modified a rdf:Property .
+
+dct:publisher a rdf:Property .
+
+dct:spatial a rdf:Property .
+
+dct:temporal a rdf:Property .
+
+dct:theme a rdf:Property .
+
+dct:title a rdf:Property .
+
+dcat:distribution a rdf:Property .
+
+dcat:keyword a rdf:Property .
+
+dcat:version a rdf:Property .
+
+<https://edaanowl.org/ontology#/urn:catalog:metadataxtract-001> a dcat:Catalog ;
+    dct:description rdf:Property ;
+    dct:issued rdf:Property ;
+    dct:publisher rdf:Property ;
+    dct:title rdf:Property .
+
+edaan:accessType a rdf:Property .
+
+edaan:dataUtility a rdf:Property .
+
+edaan:extraQualityMetadata a rdf:Property .
+
+edaan:id a rdf:Property .
+
+edaan:isAlive a rdf:Property .
+
+edaan:securityPrivacy a rdf:Property .
+
+edaan:topicTags a rdf:Property .
+
+ids:contactPoint a rdf:Property .
+
+ids:contractOffer a rdf:Property .
+
+ids:identifier a rdf:Property .
+
+ids:provenance a rdf:Property .
+
+ids:representation a rdf:Property .
+
+ids:sovereign a rdf:Property .
+
